@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+</head>
+<body>
+   <div class="wrapper">
+    <div class=" form-wrapper login">
+    <form action=""> 
+        <h1>login</h1>
+        <div class="input-box">
+            <span class="icon">
+                <ion-icon name="mail"></ion-icon>
+            </span>
+            <input type="email" placeholder="email" required>
+        </div>
+         <div class="input-box">
+            <span class="icon">
+              <ion-icon name="lock-closed"></ion-icon>
+                            </span>
+            <input type="password" placeholder="password" required>
+        </div>
+        <div class="forgot-pass">
+            <input type="checkbox">Are you remember me
+            <a href="reset.html">     forgot-password</a>
+        </div>
+        <button type="submit" class="btn">login</button>
+        <div class="register-link"> 
+            <p>Don't Have An Account  <a href="#" onclick=" registerActive()">Register</a></p>
+        </div>
+    </form>
+    </div>
+    <div class="form-wrapper Register">
+    <form action=""> 
+        <h1>REGISTRATION</h1>
+          <div class="input-box">
+            <span class="icon">
+                <ion-icon name="person"></ion-icon>
+            </span>
+            <input type="text" placeholder="full name" required>
+        </div>
+
+        <div class="input-box">
+            <span class="icon">
+                <ion-icon name="mail"></ion-icon>
+            </span>
+            <input type="email" placeholder="email" required>
+        </div>
+         <div class="input-box">
+            <span class="icon">
+              <ion-icon name="lock-closed"></ion-icon>
+                            </span>
+            <input type="password" placeholder="password" required>
+        </div>
+
+        <button type="submit" class="btn">Register</button>
+        <div class="register-link"> 
+            <p> Allredy I Have An Account <a href="#" onclick=" loginActive()">login</a></p>
+           <abbr title="writen by sami ">@copywrite</abbr>
+           
+     </div>
+   </form>
+   </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
