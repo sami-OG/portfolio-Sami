@@ -38,9 +38,3 @@ Contact
 Portfolio
 
 Visit my portfolio website to learn more about my work and projects.
-[13/07/2026 7:25 am] Sami: PS C:\Users\hp\html_practice> git commit -m "rename final to index"
-[main e7d7c95] rename final to index
- 3 files changed, 2 insertions(+), 2 deletions(-)
- rename final/FINAL.WEBSITE/{style.css => final.css} (100%)
- rename final/FINAL.WEBSITE/{script.js => final.js} (100%)
-PS C:\Users\hp\html_practice>
